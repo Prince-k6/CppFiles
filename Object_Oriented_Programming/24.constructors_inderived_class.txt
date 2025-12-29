@@ -7,6 +7,11 @@
     need to pass argument to the base class constructor
 •If both base and derived classes have constructors, base class constructor is executed first
 
+-------Constructors chaining--------
+•when a derived class constructors invokes a base class constructor,it is known as construction chainging
+•base class constructor is executed first then derived class constructor
+
+
 -------Constructors in Multiple Inheritances--------
 
 •In multiple inheritances, base classes are constructed in the order in which they appear in class declration. 

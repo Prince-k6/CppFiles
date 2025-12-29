@@ -22,7 +22,7 @@ for a protected member
 */
 
 
-/* chage the visibility mode to public or private or proetected, trace the program and see the result*/
+/* chage the visibility mode to public or private or protected, trace the program and see the result*/
 class derived : protected base{
 
 public:

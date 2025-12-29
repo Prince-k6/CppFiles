@@ -1,4 +1,7 @@
-//Demonstrating constructors in derived class
+/*                           Demonstrating constructors in derived class
+-------Constructors chaining--------
+•when a derived class constructors invokes a base class constructor,it is known as construction chainging
+•base class constructor is executed first then derived class constructor */
 
 /*
 Case1:-
