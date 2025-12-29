@@ -1,8 +1,9 @@
 //virual function :
 /* 
         Virtual functions are member functions in a base class, declared with the virtual keyword,
-        that can be redefined (overridden) in derived classes to provide specific implementations, 
-        enabling runtime polymorphism (dynamic dispatch)
+        that can be redefined (overridden) in derived classes to provide specific implementations
+
+        Virtual function enables runtime polymorphism (dynamic dispatch)
 */
 
 #include<iostream>
