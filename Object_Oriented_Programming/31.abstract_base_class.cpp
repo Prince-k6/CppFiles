@@ -48,11 +48,11 @@ public:
 int main(){
     // shape s;     //this will give error saying object of abstract class not allowed
 
-    // square s(7);
-    // circle c(9);
-    // s.area();
-    // c.area();
-
+    square a(7);
+    circle c(9);
+    a.area();
+    c.area();
+    cout<<"-------------------------------\n";
     shape *s[]= {new square(9), new circle(8)};                //pointer to abstract class
     s[0]->area();
     s[1]->area();

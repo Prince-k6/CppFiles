@@ -1,4 +1,4 @@
-//virtual base class : when two derived classes(derived from a single base class) are used in further a derived class
+//virtual base class : when two derived classes(derived from a single base class) are used in a further derived class
 //                      an ambiguity arises therefore to resolve that ambiguity we use virtual base class
 
 
