@@ -33,7 +33,7 @@ int main(){
     base *base_class_pointer;
     base obj1;
     derived obj2;
-    base_class_pointer=&obj2;         //base class pointer can be pointed to derived class object but it will
+    base_class_pointer=&obj2;         //base class pointer can point to derived class object but it can
                                 // only access those members & members functions that are present in the base classs
 
     base_class_pointer->var_base=9;
@@ -42,6 +42,7 @@ int main(){
 
     derived *derived_class_pointer;
     derived_class_pointer=&obj2;
+    derived_class_pointer->var_base=69;
     derived_class_pointer->var_derived=78;
     derived_class_pointer->display();
 
