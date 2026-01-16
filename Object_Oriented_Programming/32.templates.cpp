@@ -1,11 +1,13 @@
+                                       //templates basics
 //Templates : blueprint for creating function or classes that can work with any data type
+
 
 #include<iostream>
 #include<iostream>
 using namespace std;
 
 
-                                          //generic function
+                //generic function :- A function that works with any data type
 //a function with one generic type
 template<class T>
 void Swap(T &a, T &b){      //now this can work for any data type
@@ -35,9 +37,8 @@ void myfunc(type1 X, type2 Y){
 //     return 0;
 // }
 
-                                       // generic class
+                      // generic class:- A class that works with any data type
 template<class T>
-
 class MyClass{
 private:
     T data1;
@@ -63,8 +64,9 @@ int main(){
     MyClass<double> obj3(5.567,78.9834);
     obj3.display();
 
-    MyClass<char>obj4('A','B');
+    MyClass<char>obj4('A','B');       //A=65, B=66
     obj4.display();
+   
 
     return 0;
 

@@ -57,9 +57,6 @@ int main(){
     s[0]->area();
     s[1]->area();
 
-
     // delete s;
-
-
     return 0;
-}
+} 

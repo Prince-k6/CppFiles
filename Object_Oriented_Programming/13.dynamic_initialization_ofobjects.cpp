@@ -17,7 +17,7 @@ class BankDeposit{
         void show();
 };
 
-BankDeposit :: BankDeposit(int p, int y, float r)
+BankDeposit :: BankDeposit(int p, int y, float r)       //defining the constructor using scope resolution
 {
     principal = p;
     years = y;
@@ -29,7 +29,7 @@ BankDeposit :: BankDeposit(int p, int y, float r)
     }
 }
 
-BankDeposit :: BankDeposit(int p, int y, int r)
+BankDeposit :: BankDeposit(int p, int y, int r)        //defining the constructor using scope resolution
 {
     principal = p;
     years = y;
