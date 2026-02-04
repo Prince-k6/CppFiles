@@ -44,7 +44,7 @@ Data members
     base1-->protected
     base2-->protected
     base3-->protected
-memeber functions
+member functions
     set_base1-->public
     set_base2-->public
     set_base3-->public

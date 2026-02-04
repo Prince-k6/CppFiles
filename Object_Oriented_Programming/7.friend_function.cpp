@@ -25,20 +25,22 @@ public:
         img=b;
     }
     void show_num(Complex c){
-        if (c.img<0){
+        if(c.img<0){
             cout<<c.real<<c.img<<"i"<<endl;
-        }
-        else{
+        }else{
             cout<<c.real<<"+"<<c.img<<"i"<<endl;
         }
     }
-    friend Complex sum_complex(Complex c1,Complex c2);
-
+    friend Complex sum_complex(Complex c1, Complex c2);
+    friend void show();
 };
 Complex sum_complex(Complex c1, Complex c2){
     Complex c3;
     c3.set_num((c1.real+c2.real),(c1.img+c2.img));
     return c3;
+}
+void show(){
+    cout<<"This is a normal show function demonstrating friend function\n";
 }
 int main(){
     Complex c1,c2,sum;
@@ -47,6 +49,11 @@ int main(){
     
     c2.set_num(6,-8);
     c2.show_num(c2);
+
+    // c1.show();
+    // c2.show();       //friend function is not in the scope of class hence it cannot be called/invoked from
+                            // the object of that class
+
 
     sum=sum_complex(c1,c2);
     sum.show_num(sum);

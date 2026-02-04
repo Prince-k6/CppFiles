@@ -1,8 +1,7 @@
 /* 
 virual function :
     •Virtual functions are member functions in a base class, declared with the virtual keyword,
-    that can be redefined (overridden) in derived classes to provide specific implementations
-
+    that can be redefined (overridden) in derived classes to provide specific implementation
     •Virtual function enables runtime polymorphism (dynamic dispatch)
 •Properties
     1.they cannot be static

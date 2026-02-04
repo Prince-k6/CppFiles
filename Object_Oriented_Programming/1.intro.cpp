@@ -1,5 +1,5 @@
 //class :blueprint of an object
-//object: real world entities or instance of an object
+//object: real world entities 
 
 #include<iostream>
 using namespace std;
